@@ -82,6 +82,10 @@ button {
 .ticket-left {
     background-color: var(--ticket-color);
     width: 30%;
+    padding: 20px 0;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
 }
 .ticket-right {
     display: flex;
@@ -89,4 +93,11 @@ button {
     flex-grow: 1;
     border-top: 1px solid var(--ticket-color);
     border-bottom: 1px solid var(--ticket-color);
+    padding: 20px 0;
+}
+.discount-var, .wagon-var, .cp-code-var, .price-var {
+    margin-top: 30px;
+}
+.hide1, .hide2 {
+    display: none;
 }
