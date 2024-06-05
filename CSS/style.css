@@ -1,5 +1,58 @@
+:root {
+    --background-color: rgb(185, 20, 80);
+    --text-color: rgb(195, 56, 107);
+    --ticket-color: rgb(128, 128, 128);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-page {
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 5% 25% 15%;
+}
+.calculator-title, .ticket-title {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 4%;
+}
+.calculator-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
+.input-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.button-box {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.name-box, .distance-box, .age-box {
+    line-height: 200%;
+}
+.text-red {
+    color: var(--text-color);
+    font-weight: bold;
+}
+input, select {
+    border-radius: 6px;
+    padding: 4%;
+    border: 2px solid var(--text-color);
+}
+button {
+    padding: 4px;
+    color: var(--text-color);
+    font-weight: bold;
 }
