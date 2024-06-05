@@ -17,16 +17,28 @@
     text-align: center;
     padding: 5% 25% 15%;
 }
-.calculator-title, .ticket-title {
+.calculator-title{
     color: white;
     font-weight: bold;
     font-size: 26px;
     margin-bottom: 4%;
 }
+.ticket-title {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 1%;
+}
 .calculator-box {
     background-color: white;
     border-radius: 10px;
     padding: 2%;
+    margin-bottom: 3%;
+}
+.ticket-box {
+    background-color: white;
+    padding: 2%;
+    margin-bottom: 3%;
 }
 .input-boxes {
     display: flex;
@@ -42,7 +54,7 @@
 .name-box, .distance-box, .age-box {
     line-height: 200%;
 }
-.text-red {
+.ctm_text-red {
     color: var(--text-color);
     font-weight: bold;
 }
@@ -55,4 +67,26 @@ button {
     padding: 4px;
     color: var(--text-color);
     font-weight: bold;
+}
+.ctm_fw_bold {
+    font-weight: bold;
+}
+.traveler-detail {
+    text-align: start;
+    font-weight: bold;
+    width: 30%;
+}
+.traveler-ticket {
+    display: flex;
+}
+.ticket-left {
+    background-color: var(--ticket-color);
+    width: 30%;
+}
+.ticket-right {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    border-top: 1px solid var(--ticket-color);
+    border-bottom: 1px solid var(--ticket-color);
 }
