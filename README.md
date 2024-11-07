@@ -3,15 +3,13 @@
 # JS-BIGLIETTO-TRENO-FORM
 
 ## Descrizione
-
 In questo progetto, l'utente dovrà inserire il numero di chilometri che desidera percorrere e la propria età. Sulla base di queste informazioni, il programma calcolerà il prezzo totale del viaggio in treno applicando gli sconti in base all'età dell'utente:
 
 - Il prezzo base del biglietto è di **0.21 € al km**.
 - **Sconto del 20%** per i minorenni (età inferiore a 18 anni).
 - **Sconto del 40%** per gli over 65 (età maggiore di 65 anni).
 
-Il programma è diviso in due fasi (milestone):
-
+Il programma è diviso in due fasi:
 ### Milestone 1:
 Implementazione base con due input (chilometri ed età) e un bottone. Il programma calcolerà il prezzo in base ai dati forniti e mostrerà il risultato in console.
 
